@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,100&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio Home</title>
+</head>
+<body>
+    <aside>
+        <a href="./index.html">
+            <img src="./img/4.png" alt="my logo" class="logo">
+        </a>
+        <p class="aboutMeText">I am a recently certified UX/UI Designer located in the Greater Orlando area of Florida. I specialize in wireframing and prototyping. Some of my favorite problems to solve are navigation difficulties and visual accessibility.</p>
+        <nav class="navLeft">
+            <ul>
+                <li id="portfolioButton" class="navItem active">
+                    <div id="portfolioSide" class ="sideAccent"></div>
+                    <a href="./index.html">Portfolio</a>   
+                </li>
+                <li id="moreMeButton" class="navItem">
+                    <div id="moreMeSide" class ="sideAccent inactive"></div>
+                    <a href="#">More About Me</a>
+                </li>
+                <li id="contactButton" class="navItem">
+                    <div id="contactSide" class ="sideAccent inactive"></div>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+<div class="caseStudyPage">    
+    <div class="jumbotron" id="musicaHero">
+        
+    </div>
+    <div class="musicaTitle">
+        <h3>Designing an app for finding musical performances: Musica</h3>
+    </div>
+    <div class="container-fluid" id="musicaInitialSegment">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 musicaText">
+                <p>For the first official project in my UX/UI Bootcamp, the class was broken into teams of four to create low-fidelity prototypes for our own apps. My group chose to create the basis for an app that would allow users to find and buy tickets to concerts, as well as help them prepare for the performance in the process.</p>
+                <p>My role in the team was to assist in user research, develop the user’s event lists in the prototype, and assist in editing.</p>
+                <h5>Timeline:</h5>
+                <p>3 Weeks</p>
+                <h5>Tools Used:</h5>
+                <p>Google Docs, Google Slides, Google Drive, Trello, Figma, Zoom, Slack, Fontawesome</p>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <img src="./img/MusicaCaseStudy/Splash Screen - Laura.png" alt="Splash Screen">
+            </div>
+        </div>
+    </div>
+    <div class="musicaTitle">
+        <h3>Phase 1: User Research</h3>
+    </div>
+    <div class="musicaText">
+        <h5>Our Problem:</h5>
+        <p>People interested in live music have been relying on multiple apps and websites to try and find performances in their area. In spite of all these sources, they have issues finding shows, venue information, and local artists.</p>
+    </div>
+    <div class="musicaText">
+        <p>We began our research by looking into the potential competitors, direct and indirect. We elected bandsintown and StubHub to be the direct competiton while Goldstar and Etix served as indirect competition. Each member of the team reviewed one of the four. I was assigned to analyze Etix. Below are examples what each of us found:</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
+                <img src="./img/MusicaCaseStudy/Bandsintown_Logo_Blue_Square.jpg" class="card-img-top" alt="bandsintown Logo">
+                <div class="card-body">
+                  <p class="card-text">Tailors suggestions to the users and allows them to connect and share with other users</p>
+                  <p class="card-text">Multiple issues in the design of the layout and feed, causing navigation difficulties</p>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
+                <img src="./img/MusicaCaseStudy/1200px-Stubhub.svg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Provides access to otherwise unavailable tickets and makes efforts to ensure they’re legitimate</p>
+                  <p class="card-text">High rate of customer dissatisfaction, often related to the poor customer service</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
+                <img src="./img/MusicaCaseStudy/goldstar logo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Shares the physical location and website for the performance venues</p>
+                  <p class="card-text">No means to contact a support team outside of email</p>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
+                <img src="./img/MusicaCaseStudy/Etix_logo.svg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Allows users to search by artist and venue, and shares a venue’s event list</p>
+                  <p class="card-text">Venue searching is severely limited</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

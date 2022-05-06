@@ -4,6 +4,9 @@
      align-items: flex-start; */
      margin-left: 260px;
 }
+.caseStudyPage{
+    margin-left: 250px;
+}
 
 aside{
    position: fixed;
@@ -56,10 +59,10 @@ aside{
 }
 
 .active{
-    background-color: #406169 !important;
+    background-color: #406169;
 }
 .active a{
-    color: white !important;
+    color: white;
 }
 .navItem:hover{
     background-color: white;
@@ -111,4 +114,27 @@ aside{
 }
 #familabTab{
     background-color: #3399FE;
+}
+
+#musicaHero{
+    background-color: #FF9900;
+    background-image: url(../img/MusicaCaseStudy/MusicaIntro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+}
+.musicaTitle{
+    background-color: black;
+    color: #FF9900;
+    padding: 10px;
+}
+
+.musicaText{
+    background-color: #FF9900;
+    padding: 15px;
+}
+
+#musicaInitialSegment{
+    
 }
