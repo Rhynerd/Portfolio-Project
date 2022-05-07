@@ -40,8 +40,8 @@
     <div class="musicaTitle">
         <h3>Designing an app for finding musical performances: Musica</h3>
     </div>
-    <div class="container-fluid caseStudySegment">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row caseStudySegment">
             <div class="col-lg-5 col-md-6 musicaText">
                 <p>For the first official project in my UX/UI Bootcamp, the class was broken into teams of four to create low-fidelity prototypes for our own apps. My group chose to create the basis for an app that would allow users to find and buy tickets to concerts, as well as help them prepare for the performance in the process.</p>
                 <p>My role in the team was to assist in user research, develop the user’s event lists in the prototype, and assist in editing.</p>
@@ -51,7 +51,7 @@
                 <p>Google Docs, Google Slides, Google Drive, Trello, Figma, Zoom, Slack, Fontawesome</p>
             </div>
             <div class="col-lg-5 col-md-6">
-                <img src="./img/MusicaCaseStudy/Splash Screen - Laura.png" alt="Splash Screen">
+                <img src="./img/MusicaCaseStudy/Splash Screen - Laura.png" class="img-fluid" alt="Splash Screen">
             </div>
         </div>
     </div>
@@ -60,57 +60,63 @@
         <h3>Phase 1: User Research</h3>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <h5>Our Problem:</h5>
                 <p>People interested in live music have been relying on multiple apps and websites to try and find performances in their area. In spite of all these sources, they have issues finding shows, venue information, and local artists.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>We began our research by looking into the potential competitors, direct and indirect. We elected bandsintown and StubHub to be the direct competiton while Goldstar and Etix served as indirect competition. Each member of the team reviewed one of the four. I was assigned to analyze Etix. Below are examples what each of us found:</p>
             </div>
         </div>
-        <div class="row">
-            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
-                <img src="./img/MusicaCaseStudy/Bandsintown_Logo_Blue_Square.jpg" class="card-img-top" alt="bandsintown Logo">
-                <div class="card-body">
-                  <p class="card-text">Tailors suggestions to the users and allows them to connect and share with other users</p>
-                  <p class="card-text">Multiple issues in the design of the layout and feed, causing navigation difficulties</p>
+        <div class="row caseStudySegment">
+            <div class="col-lg-5 col-md-5 my-3">
+                <div class="card h-100">
+                   <img src="./img/MusicaCaseStudy/Bandsintown_Logo_Blue_Square.jpg" class="card-img-top" alt="bandsintown Logo">
+                    <div class="card-body">
+                        <p class="card-text">Tailors suggestions to the users and allows them to connect and share with other users</p>
+                        <p class="card-text">Multiple issues in the design of the layout and feed, causing navigation difficulties</p>
+                    </div> 
+                </div> 
+            </div>
+            <div class=" col-lg-5 col-md-5 my-3">
+                <div class="card h-100">
+                     <img src="./img/MusicaCaseStudy/1200px-Stubhub.svg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Provides access to otherwise unavailable tickets and makes efforts to ensure they’re legitimate</p>
+                        <p class="card-text">High rate of customer dissatisfaction, often related to the poor customer service</p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
-                <img src="./img/MusicaCaseStudy/1200px-Stubhub.svg.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Provides access to otherwise unavailable tickets and makes efforts to ensure they’re legitimate</p>
-                  <p class="card-text">High rate of customer dissatisfaction, often related to the poor customer service</p>
+                <div class="col-lg-5 col-md-5 my-3">
+                    <div class="card h-100">
+                        <img src="./img/MusicaCaseStudy/goldstar logo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Shares the physical location and website for the performance venues</p>
+                            <p class="card-text">No means to contact a support team outside of email</p>
+                        </div>
+                    </div>    
+                </div>
+            <div class="col-lg-5 col-md-5 my-3">
+                <div class="card h-100">
+                    <img src="./img/MusicaCaseStudy/Etix_logo.svg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Allows users to search by artist and venue, and shares a venue’s event list</p>
+                        <p class="card-text">Venue searching is severely limited</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
-                <img src="./img/MusicaCaseStudy/goldstar logo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Shares the physical location and website for the performance venues</p>
-                  <p class="card-text">No means to contact a support team outside of email</p>
-                </div>
-            </div>
-            <div class="card col-lg-4 col-md-5" style="width: 18rem;">
-                <img src="./img/MusicaCaseStudy/Etix_logo.svg.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Allows users to search by artist and venue, and shares a venue’s event list</p>
-                  <p class="card-text">Venue searching is severely limited</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>Once we had finished studying the competition, we prepared interview questions. All of our chosen interviewees had recently visited at least one big musical performance and one local musical performance.</p>
                 <p>We had the interviewees walk us through how they discovered, got tickets to, prepared for, and finally experienced the event. We sought to see what they enjoyed in the process and what problems they encountered.</p>
             </div>
         </div>
-        <div class="row col-lg-10">
-            <img src="./img/MusicaCaseStudy/InterviewQuestions.png" alt="Interview Question Images">
+        <div class="row caseStudySegment">
+            <img src="./img/MusicaCaseStudy/InterviewQuestions.png" class="col-lg-10" alt="Interview Question Images">
         </div>
     </div>
     
@@ -120,15 +126,15 @@
         <h3>Phase 2: Defintion</h3>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>Using the data collected from our interviews, we created a user persona known as Mia Jones and began to build a flow of the process for finding and taking part in musical performances.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/MiaJones.png" class="col-lg-10" alt="User Persona">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/UserJourney.png" class="col-lg-10" alt="User Journey">
         </div>
     </div>
@@ -137,23 +143,23 @@
         <h3>Phase 3: Ideation</h3>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>Following the desires of Mia Jones and our teacher, we began to build out the basis of what our app would be. This started with a round of brainstorming that would be condensed into a feature chart:</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/MossCow.png" class="col-lg-10" alt="Feature Prioritzation Matrix">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>Once we had our features in mind and a steady idea of the user’s typical journey in the process our app is meant to simplify, we began the development of a mind map:</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
              <img src="./img/MusicaCaseStudy/Mind Map.png" class="col-lg-10" alt="Mind Map">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
             <p>For our low-fidelity prototype, we decided on providing the following features:</p>
             <ul>
@@ -171,31 +177,31 @@
         <h3>Phase 4: Low Fidelity Design</h3>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>We split the pages and features between us. Initially, I was given the home page, the upcoming events page. and the artists feed page. Eventually the user given the venue feed page was tasked to handle both feed pages, and the home page became a collaborative effort.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/StartingSketches.png" class="col-lg-10" alt="The first sketches of my three assigned pages">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>I began by blocking out areas, but quickly expanded out to creating components for the different events. The initial component for the main page events would not the used in the final version of the home page, but would be repurposed for the pages dedicated to ordering tickets.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/MiddleSketches.png" class="col-lg-10" alt="">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>The third implementation of event cards was my final, with the fourth iteration only recieving a filter options button for future versions. The cards here we given buttons to add/remove them to the “my events” page, request notifciation for them, and finally a marker to indicate if you have tickets for the event.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/LatestWorks.png" class="col-lg-10" alt="final sketches, which were copied into the intitial prototype">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>The 04 series of sketches were the final set for the prototype. Our group had chosen to implement a bottom navigation bar so that users could easily swap between major segments. The filter buttons, while not active, were also an agreed upon feature for many of the lists required by the app's design.</p>
             </div>
@@ -206,26 +212,26 @@
         <h3>Phase 5: Usability Testing</h3>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
                 <p>Four tests were run, with three tasks in mind. The tasks were to log in, purchase tickets to an event, and look up details on a venue.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <img src="./img/MusicaCaseStudy/UserTestSample.png" class="col-lg-10" alt="a piece of the usability testing plan, showing the third task">
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-6 col-md-8">
                 <p>Our users found the app easy to navigate and the login process simple. Compliments were given to our final price breakdowns during the purchase process as well as the feed system.</p>
                 <p>There were still issues found. One user had difficulties completing the third task, as pictured above. Another user had trouble with the fact that one of the fees was unlabelled. This second user also noticed an inconsistency between the two payment systems. Our team also found our own issues both in the payment by credit card system and multiple visual errors.</p>
             </div>
             <div class="col-lg-4 col-md-4">
-                <img src="./img/MusicaCaseStudy/BeforeEdits.png" alt="Venue Information Feed page before edits">
+                <img src="./img/MusicaCaseStudy/BeforeEdits.png" class="img-fluid" alt="Venue Information Feed page before edits">
             </div>
         </div>
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="col-lg-4 col-md-4">
-                <img src="./img/MusicaCaseStudy/AfterEdits.png" alt="Venue Information Feed page after edits">
+                <img src="./img/MusicaCaseStudy/AfterEdits.png" class="img-fluid" alt="Venue Information Feed page after edits">
             </div>
             <div class="musicaText col-lg-6 col-md-8">
                 <p>As a group, we applied our feedback in a final round of iteration before our presentaiton. The payment pages were almost completely remade. A suggested items box was added to the feed pages, which was a suggestion made by the user who had issues completing the task related to these pages.</p>
@@ -238,7 +244,7 @@
         <h3>Phase 6: Next Steps</h3>
     </div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row caseStudySegment">
             <div class="musicaText col-lg-10">
             <p>If Musica was given a chance for further development and our team was reuinited to continue this process, then our group would do the following:</p>
             <ul>
