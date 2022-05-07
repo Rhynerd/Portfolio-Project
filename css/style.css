@@ -135,6 +135,8 @@ aside{
     padding: 15px;
 }
 
-#musicaInitialSegment{
-    
+.caseStudySegment{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
 }
