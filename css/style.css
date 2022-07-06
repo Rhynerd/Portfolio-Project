@@ -116,6 +116,8 @@ aside{
     background-color: #3399FE;
 }
 
+/*Style for Musica Page*/
+
 #musicaHero{
     background-color: #FF9900;
     background-image: url(../img/MusicaCaseStudy/MusicaIntro.png);
@@ -137,4 +139,26 @@ aside{
 
 #musicaInitialSegment{
     
+}
+
+/*Style for FamiLAB Page*/
+
+#familabHero{
+        background-color: #3399FE;
+        background-image: url(../img/FamilabCaseStudy/TitleImage.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+}
+.familabTitle{
+    background-color: #677278;
+    color: black;
+    padding: 10px;
+}
+
+.familabText{
+    background-color: #2A3782;
+    color: white;
+    padding: 15px;
 }
